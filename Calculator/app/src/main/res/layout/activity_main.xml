@@ -4,12 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black"
     tools:context=".MainActivity">
 
     <TableLayout
         android:id="@+id/tableLayout"
-        android:layout_width="365dp"
-        android:layout_height="303dp"
+        android:layout_width="366dp"
+        android:layout_height="394dp"
         android:layout_marginTop="314dp"
         android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -28,32 +29,44 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:backgroundTint="@color/grey"
                 android:onClick="onClick"
-                android:text="1" />
+                android:text="1"
+                android:textColor="@color/white"
+                android:textSize="40dp" />
 
             <Button
                 android:id="@+id/button2"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:backgroundTint="@color/grey"
                 android:onClick="onClick"
-                android:text="2" />
+                android:text="2"
+                android:textColor="@color/white"
+                android:textSize="40dp" />
 
             <Button
                 android:id="@+id/button3"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:backgroundTint="@color/grey"
                 android:onClick="onClick"
-                android:text="3" />
+                android:text="3"
+                android:textColor="@color/white"
+                android:textSize="40dp" />
 
             <Button
                 android:id="@+id/button4"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:backgroundTint="@color/light_black"
                 android:onClick="onClick"
-                android:text="+" />
+                android:text="+"
+                android:textColor="@color/white"
+                android:textSize="40dp" />
         </TableRow>
 
         <TableRow
@@ -66,32 +79,44 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:backgroundTint="@color/grey"
                 android:onClick="onClick"
-                android:text="4" />
+                android:text="4"
+                android:textColor="@color/white"
+                android:textSize="40dp" />
 
             <Button
                 android:id="@+id/button6"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:backgroundTint="@color/grey"
                 android:onClick="onClick"
-                android:text="5" />
+                android:text="5"
+                android:textColor="@color/white"
+                android:textSize="40dp" />
 
             <Button
                 android:id="@+id/button7"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:backgroundTint="@color/grey"
                 android:onClick="onClick"
-                android:text="6" />
+                android:text="6"
+                android:textColor="@color/white"
+                android:textSize="40dp" />
 
             <Button
                 android:id="@+id/button8"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:backgroundTint="@color/light_black"
                 android:onClick="onClick"
-                android:text="*" />
+                android:text="*"
+                android:textColor="@color/white"
+                android:textSize="40dp" />
         </TableRow>
 
         <TableRow
@@ -104,32 +129,44 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:backgroundTint="@color/grey"
                 android:onClick="onClick"
-                android:text="7" />
+                android:text="7"
+                android:textColor="@color/white"
+                android:textSize="40dp" />
 
             <Button
                 android:id="@+id/button10"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:backgroundTint="@color/grey"
                 android:onClick="onClick"
-                android:text="8" />
+                android:text="8"
+                android:textColor="@color/white"
+                android:textSize="40dp" />
 
             <Button
                 android:id="@+id/button11"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:backgroundTint="@color/grey"
                 android:onClick="onClick"
-                android:text="9" />
+                android:text="9"
+                android:textColor="@color/white"
+                android:textSize="40dp" />
 
             <Button
                 android:id="@+id/button12"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:backgroundTint="@color/light_black"
                 android:onClick="onClick"
-                android:text="-" />
+                android:text="-"
+                android:textColor="@color/white"
+                android:textSize="40dp" />
         </TableRow>
 
         <TableRow
@@ -142,32 +179,61 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:backgroundTint="@color/red"
                 android:onClick="onClick"
-                android:text="C" />
+                android:text="C"
+                android:textColor="@color/white"
+                android:textSize="40dp" />
 
             <Button
                 android:id="@+id/button14"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:backgroundTint="@color/grey"
                 android:onClick="onClick"
-                android:text="." />
+                android:text="."
+                android:textColor="@color/white"
+                android:textSize="40dp" />
 
             <Button
                 android:id="@+id/button15"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:backgroundTint="@color/light_black"
                 android:onClick="onClick"
-                android:text="/" />
+                android:text="/"
+                android:textColor="@color/white"
+                android:textSize="40dp" />
 
             <Button
                 android:id="@+id/button16"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:backgroundTint="@color/orange"
                 android:onClick="onClick"
-                android:text="=" />
+                android:text="DEL"
+                android:textColor="@color/white"
+                android:textSize="40dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="@color/blue"
+                android:onClick="onClick"
+                android:text="="
+                android:textColor="@color/white"
+                android:textSize="40dp" />
         </TableRow>
     </TableLayout>
 
@@ -179,15 +245,18 @@
         android:layout_marginTop="29dp"
         android:layout_marginEnd="23dp"
         android:layout_marginBottom="21dp"
+        android:backgroundTint="@color/grey"
+        android:editable="false"
         android:ems="10"
         android:hint="@string/etVisor"
-        android:inputType="number"
+        android:inputType="none"
         android:textAlignment="textEnd"
+        android:textColor="@color/white"
         android:textSize="96sp"
         app:layout_constraintBottom_toTopOf="@+id/tableLayout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.571"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.149" />
+        app:layout_constraintVertical_bias="0.0" />
 </android.support.constraint.ConstraintLayout>
