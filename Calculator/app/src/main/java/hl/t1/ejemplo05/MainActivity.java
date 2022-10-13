@@ -1,5 +1,6 @@
 package hl.t1.ejemplo05;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -7,17 +8,20 @@ import android.widget.TextView;
 import android.widget.Toast;
 import com.udojava.evalex.Expression;
 
+import java.util.Objects;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private String operation="";
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) throws NullPointerException {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        getSupportActionBar().hide();
+        Objects.requireNonNull(getSupportActionBar()).hide();
     }
 
+    @SuppressLint("NonConstantResourceId")
     public void onClick(View view){
         TextView nums = findViewById(R.id.etVisor);
         int v = view.getId();
