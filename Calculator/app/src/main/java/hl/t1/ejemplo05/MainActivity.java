@@ -79,6 +79,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 this.operation+=".";
                 nums.setText(this.operation);
                 break;
+            case R.id.button18:
+                this.operation+="0";
+                nums.setText(this.operation);
+                break;
             case R.id.button15:
                 this.operation+="/";
                 nums.setText(this.operation);
