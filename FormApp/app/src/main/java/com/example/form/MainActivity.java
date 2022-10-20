@@ -6,9 +6,10 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) throws NullPointerException {
@@ -30,6 +31,17 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
+        }
+    }
+
+    public void onClick(View v){
+        switch (v.getId()){
+            case R.id.cancelBtn:
+
+                break;
+            case R.id.confirmBtn:
+
+                break;
         }
     }
 
