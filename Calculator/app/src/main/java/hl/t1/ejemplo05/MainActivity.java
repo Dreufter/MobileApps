@@ -3,6 +3,9 @@ package hl.t1.ejemplo05;
 import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -18,7 +21,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) throws NullPointerException {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Objects.requireNonNull(getSupportActionBar()).hide();
+        //Objects.requireNonNull(getSupportActionBar()).hide();
     }
 
     @SuppressLint("NonConstantResourceId")
@@ -109,6 +112,28 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 String result=expression.eval().toString(); //Insert The Data into A String
                 nums.setText(result);
                 break;
+        }
+    }
+
+    public boolean onCreateOptionsMenu(Menu menu){
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.main, menu);
+        return true;
+    }
+
+    public boolean onOptionsItemSelected(MenuItem item){
+        switch (item.getItemId()){
+            case R.id.mitem1:
+                Toast.makeText(this, "Elemento 1", Toast.LENGTH_SHORT).show();
+                return true;
+            case R.id.mitem2:
+                Toast.makeText(this, "Elemento 2", Toast.LENGTH_SHORT).show();
+                return true;
+            case R.id.mitem3:
+                Toast.makeText(this, "Creado por Pedro Moraga Castelar", Toast.LENGTH_SHORT).show();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
         }
     }
 }

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/black">
+
+    <item
+        android:id="@+id/mitem1"
+        android:iconTint="@color/black"
+        android:title="@string/mITitle1" />
+    <item
+        android:id="@+id/mitem2"
+        android:iconTint="@color/black"
+        android:title="@string/mITitle2" />
+    <item
+        android:id="@+id/mitem3"
+        android:iconTint="@color/black"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="@string/mITitle3" />
+
+</menu>

@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Calculator</string>
     <string name="etVisor">0</string>
+    <string name="mITitle1">Elemento 1</string>
+    <string name="mITitle2">Elemento 2</string>
+    <string name="mITitle3">Acerca de</string>
 </resources>
