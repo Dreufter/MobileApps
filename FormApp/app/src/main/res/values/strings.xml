@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Form</string>
-    <string name="mITitle1">Elemento 1</string>
-    <string name="mITitle2">Elemento 2</string>
+    <string name="mITitle1">Info</string>
     <string name="mITitle3">Acerca de</string>
 </resources>

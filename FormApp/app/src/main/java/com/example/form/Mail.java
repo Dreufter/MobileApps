@@ -65,4 +65,9 @@ public class Mail {
         this.suscription=suscription;
     }
 
+    public String toString(){
+        String msg="Nombre: "+this.name+"\nApellidos: "+this.surname+"\nE-mail: "+this.mail+"\nMensaje: "+this.msg+"\nSuscripción: "+this.suscription;
+        return msg;
+    }
+
 }
