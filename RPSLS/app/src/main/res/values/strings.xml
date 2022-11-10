@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">RCSLS</string>
+    <string name="rock">Piedra</string>
+    <string name="paper">Papel</string>
+    <string name="scissors">Tijeras</string>
+    <string name="lizard">Lagarto</string>
+    <string name="Spock">Spock</string>
+    <string name="vs">VS</string>
 </resources>
