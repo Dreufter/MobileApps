@@ -6,4 +6,6 @@
     <string name="lizard">Lagarto</string>
     <string name="Spock">Spock</string>
     <string name="vs">VS</string>
+    <string name="retry">Volver a Intentar</string>
+    <string name="exit">Salir</string>
 </resources>
