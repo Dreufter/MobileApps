@@ -2,6 +2,7 @@ package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -25,7 +26,14 @@ public class SecondaryActivity extends AppCompatActivity implements View.OnClick
     @Override
     public void onClick(View view) {
         switch (view.getId()){
+            case R.id.button6:
+                Intent intent = new Intent(view.getContext(), MainActivity.class);
+                startActivityForResult(intent, 0);
+                break;
 
+            case R.id.button7:
+                finish();
+                break;
         }
     }
 }

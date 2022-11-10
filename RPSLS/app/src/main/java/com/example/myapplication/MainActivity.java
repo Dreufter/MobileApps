@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             h.postDelayed(() -> {
                 startActivityForResult(intent, 0);
             }, (999));
+            finish();
         }else if (states[rand] == R.drawable.rock && i == R.drawable.paper || states[rand] == R.drawable.paper && i == R.drawable.rock){
             response[0]="empate";
             System.out.println("gana papel");
@@ -56,6 +57,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             h.postDelayed(() -> {
                 startActivityForResult(intent, 0);
             }, (999));
+            finish();
         }else if (states[rand] == R.drawable.rock && i == R.drawable.scissors || states[rand] == R.drawable.scissors && i == R.drawable.rock){
             System.out.println("gana piedra");
             response[0]="Gana Piedra";
@@ -71,6 +73,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             h.postDelayed(() -> {
                 startActivityForResult(intent, 0);
             }, (999));
+            finish();
         }else if(states[rand] == R.drawable.rock && i == R.drawable.lizard || states[rand] == R.drawable.lizard && i == R.drawable.rock){
             System.out.println("gana piedra");
             response[0]="Gana Piedra";
@@ -86,6 +89,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             h.postDelayed(() -> {
                 startActivityForResult(intent, 0);
             }, (999));
+            finish();
         }else if (states[rand] == R.drawable.rock && i == R.drawable.spock || states[rand] == R.drawable.spock && i == R.drawable.rock){
             System.out.println("gana spock");
             response[0]="Gana Spock";
@@ -101,6 +105,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             h.postDelayed(() -> {
                 startActivityForResult(intent, 0);
             }, (999));
+            finish();
         }else if (states[rand] == R.drawable.paper && i == R.drawable.scissors || states[rand] == R.drawable.scissors && i == R.drawable.paper){
             System.out.println("gana tijeras");
             response[0]="Gana Tijeras";
@@ -116,6 +121,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             h.postDelayed(() -> {
                 startActivityForResult(intent, 0);
             }, (999));
+            finish();
         }else if (states[rand] == R.drawable.paper && i == R.drawable.lizard || states[rand] == R.drawable.lizard && i == R.drawable.paper){
             System.out.println("gana lagarto");
             response[0]="Gana Lagarto";
@@ -131,6 +137,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             h.postDelayed(() -> {
                 startActivityForResult(intent, 0);
             }, (999));
+            finish();
         }else if (states[rand] == R.drawable.paper && i == R.drawable.spock || states[rand] == R.drawable.spock && i == R.drawable.paper){
             System.out.println("gana papel");
             response[0]="Gana Papel";
@@ -146,6 +153,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             h.postDelayed(() -> {
                 startActivityForResult(intent, 0);
             }, (999));
+            finish();
         }else if (states[rand] == R.drawable.scissors && i == R.drawable.lizard || states[rand] == R.drawable.lizard && i == R.drawable.scissors){
             System.out.println("gana tijeras");
             response[0]="Gana Tijeras";
@@ -161,6 +169,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             h.postDelayed(() -> {
                 startActivityForResult(intent, 0);
             }, (999));
+            finish();
         }else if (states[rand] == R.drawable.scissors && i == R.drawable.spock || states[rand] == R.drawable.spock && i == R.drawable.scissors){
             System.out.println("gana spock");
             response[0]="Gana Spock";
@@ -176,6 +185,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             h.postDelayed(() -> {
                 startActivityForResult(intent, 0);
             }, (999));
+            finish();
         }else if (states[rand] == R.drawable.lizard && i == R.drawable.spock || states[rand] == R.drawable.spock && i == R.drawable.lizard){
             System.out.println("gana lagarto");
             response[0]="Gana Lagarto";
@@ -191,7 +201,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             h.postDelayed(() -> {
                 startActivityForResult(intent, 0);
             }, (999));
-
+            finish();
         }
     }
 
